@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "rootDir": "src",
+    "declaration": true,
+    "allowJs": false,
+    "jsx": "react-jsx",
+    "lib": [
+        "es2017",
+        "dom"
+    ],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+},
+"include": ["src"]
+}
